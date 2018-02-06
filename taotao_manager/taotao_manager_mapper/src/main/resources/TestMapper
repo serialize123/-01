@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace值可以随便写,但是后面测试类一定要和这里保持一致-->
+<mapper namespace="com.taotao.manager.mapper.TestMapper">
+        <select id="queryDate" reslult="String">
+            select now()
+        </select>
+</mapper>
